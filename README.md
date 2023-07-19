@@ -2,7 +2,7 @@
 
 ## Usage:
 
-* Create table called PieMC
+* Create database name PieMC
 * Create users inside PieMC using:
 ```sql
 CREATE TABLE users (
