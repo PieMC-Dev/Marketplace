@@ -1,0 +1,100 @@
+/* Body and Text Styles */
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1, h2, h3 {
+    color: #000000;
+  }
+  
+  p {
+    color: #333333;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  /* Main Content Styles */
+  main {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styles */
+  form input[type="text"],
+  form input[type="password"],
+  form input[type="file"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Plugin Listings Styles */
+  .plugin-listing {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+  }
+  
+  .plugin-logo {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+  }
+  
+  .plugin-details {
+    flex-grow: 1;
+  }
+  
+  .plugin-actions {
+    flex-shrink: 0;
+    margin-left: 20px;
+  }
+  
+  .plugin-actions a {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .plugin-actions a:hover {
+    background-color: #333333;
+  }
+  
