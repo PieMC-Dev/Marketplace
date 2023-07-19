@@ -2,8 +2,8 @@
 require_once 'db_connect.php';
 
 if (isset($_POST['login'])) {
-    $clientID = ' '; // TODO: Add
-    $clientSecret = ''; // TODO: Add
+    $clientID = '0f6faba649a71051f167';
+    $clientSecret = '66c5a1001e24351b10ebd309fa3ec12a1ced8e59';
     $redirectURI = 'http://localhost/login.php';
     $url = "https://github.com/login/oauth/authorize?client_id=$clientID&redirect_uri=$redirectURI&scope=repo";
     header("Location: $url");
