@@ -65,7 +65,7 @@ if (isset($_GET['code'])) {
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-5WD76XPR07"></script>
     <script>
@@ -76,25 +76,24 @@ if (isset($_GET['code'])) {
       gtag('config', 'G-5WD76XPR07');
   </script>
   <title>PieMC Login</title>
+  <meta name="description" content="Welcome to Piemc Marketplace. Log in to access your account, manage your plugins, and explore a world of endless plugins!!">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
   <link rel="icon" type="image/x-icon" href="./assets/images/icons/favicon.ico">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/util.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 </head>
 <body>
 	
 	<div class="limiter">
 		<div class="container-login" style="background-image: url('assets/images/background.png');">
-			<div class="wrap-login p-l-55 p-r-55 p-t-65 p-b-54">
+			<div class="wrap-login" style="padding-left: 55px; padding-right: 55px; padding-top: 65px; padding-bottom: 55px;">
 				<form class="login-form validate-form">
-					<span class="login-form-title p-b-49">
+					<span class="login-form-title" style="padding-bottom: 49px">
 						LOGIN🍰
 					</span>
 
-					<div class="wrap-input validate-input m-b-23" data-validate = "Username is required">
+					<div class="wrap-input validate-input" style="margin-bottom: 23px;" data-validate = "Username is required">
 						<span class="label-input">Username</span>
 						<input class="input" type="text" name="username" placeholder="Type your username">
 						<span class="focus-input" data-symbol="&#xf206;"></span>
@@ -106,7 +105,7 @@ if (isset($_GET['code'])) {
 						<span class="focus-input" data-symbol="&#xf190;"></span>
 					</div>
 					
-					<div class="text-right p-t-8 p-b-31">
+					<div class="text-right" style="text-align: right; padding-top: 8px; padding-bottom: 31px;">
 						<a href="#">
 							Forgot password?
 						</a>
@@ -121,7 +120,7 @@ if (isset($_GET['code'])) {
 						</div>
 					</div>
 
-					<div class="txt1 text-center p-t-10 p-b-20">
+					<div class="txt1 text-center" style="padding-top: 10px; padding-bottom: 20px;">
 					</div>
 
 					<div class="flex-c-m">
@@ -138,12 +137,12 @@ if (isset($_GET['code'])) {
 						</a>
 					</div>
 
-					<div class="flex-col-c p-t-40">
-						<span class="txt1 p-b-17">
+					<div class="flex-col-c" style="padding-top: 40px;">
+						<span class="txt1" style="padding-bottom: 17px">
             New in PieMC Marketplace?
 						</span>
 
-						<a href="#" class="txt2">
+						<a href="signup.php" class="txt2">
 							Sign Up
 						</a>
 					</div>

@@ -1,6 +1,26 @@
 /*[ IMPORTS ]*/
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face {
+	font-family: 'Poppins';
+	font-display: swap;
+	src: url('https://fonts.googleapis.com/css2?family=Poppins&display=swap') format('woff2');
+}
+
+@font-face {
+	font-family: 'Material-Design-Iconic-Font';
+	src: url('https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/fonts/Material-Design-Iconic-Font.woff2?v=2.2.0/fonts/Material-Design-Iconic-Font.woff2?v=2.2.0') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+  
+  /*[ USED FONT ICONS ]*/
+  
+  .zmdi-account-o:before {
+	content: '\f206';
+  }
+  .zmdi-lock-o:before {
+	content: '\f190';
+  }
 
 
 /*[ RESTART CSS ]*/
@@ -430,4 +450,32 @@ iframe {
 		padding-left: 15px;
 		padding-right: 15px;
 	}
+}
+
+/*[ Flex ]*/
+
+.flex-c-m {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.flex-col-c {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	-ms-align-items: center;
+	align-items: center;
 }
